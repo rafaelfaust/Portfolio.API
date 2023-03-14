@@ -5,7 +5,9 @@ This is a RESTful API for a portfolio website. It provides endpoints to retrieve
 To run this project locally, you will need to have the following installed:
 
 .NET 5 SDK
+<br>
 Visual Studio 2019 (or another compatible IDE)
+<br>
 Clone this repository to your local machine.
 Open the Portfolio.API.sln solution file in Visual Studio.
 Build and run the solution.
