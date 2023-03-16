@@ -22,6 +22,8 @@ app.UseCors( p => p
 
 app.MapPost("/contacts", async (PortfolioContext context, Contact contact) =>
 {
+    contact.Date = DateTime.Now;
+
     await context.Contacts.AddAsync(contact);
     await context.SaveChangesAsync();
 
